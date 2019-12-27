@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cursos.component.css']
 })
 export class CursosComponent implements OnInit {
-
+  cursos:string[] = ['C++','React','Angular']
   constructor() { }
 
   ngOnInit() {
